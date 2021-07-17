@@ -1,0 +1,287 @@
+html, body{
+  font-family: serif;
+  background-image: url("profile/wood2.jpg");
+  background-size:auto;
+  max-width: 100%;
+  
+}
+
+body h1, h2, h3, p{
+  overflow: hidden;
+  
+}
+#container{
+  transition: .55s;
+  overflow: hidden;
+  box-shadow: 0px 2px 17px 0px black;
+  margin: 35px;
+}
+
+.nav{
+  background-color: #07031a;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: .96;
+  padding-top: 30px;
+  transition: .5s;
+  overflow-x: hidden;
+  z-index: 3;
+}
+
+
+.nav ul{
+  padding: 0;
+  
+
+}
+
+.nav li:hover{
+  border-left: 6px solid #040D95;
+  background-color: #212037;
+}
+
+.nav a{
+  display: block;
+  padding: 20px;
+  color: whitesmoke;
+  text-decoration: none;
+  text-shadow: yellow;
+  font-size: 22px;
+}
+
+.nav a:hover{
+
+  
+  
+  color: #ffffff;
+  transition: .4s;
+}
+
+.nav .closeMenu{
+  position: absolute;
+  top: -15px;
+  right: 0px;
+  font-size: 28px;
+  
+
+}
+.nav .closeMenu:hover
+{
+  transition: linear;
+}
+
+.slideMenu a
+{
+  font-size: 35px;
+  color: #FF0000;
+  top: 3px;
+  left: 3px;
+  z-index: 2;
+  position: fixed;
+  text-shadow: 3px 3px black;
+}
+
+
+
+
+.nav .sideProfile
+{
+  height: 100px;
+  width: auto;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.nav .sideProfile:hover
+{
+  box-shadow: 1px 7px 17px 0px #e69c5c;
+  transition: 1s;
+}
+
+.nav .name{
+  position: relative;
+  margin-top: 85px;
+  margin-left: 35px;
+  text-shadow: #000 0 0 .2em;
+}
+
+
+#Home.background{
+  background-image: url("profile/profile2.JPG");
+  opacity: 1;
+  height: 450px;
+  width: auto;
+  overflow: hidden;
+
+  background-attachment:fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  
+}
+
+#Home{
+  color: white;
+  text-shadow: 3px 4px black;
+  width: fit-content;
+}
+
+
+
+#Home h1 {
+  font-size: 50px;
+  overflow : hidden;
+  text-align: center;
+  white-space : nowrap;
+  border-right : 2px solid black;
+  width : 12ch;
+
+}
+
+
+
+
+
+#main-page {
+  height: auto;
+  width: auto;
+  margin: 0px;
+  background: #EBE5BD;
+  box-shadow: 0px 2px 17px 0px #534F4F;
+  overflow: hidden;
+}
+
+#main-page h2
+{
+    color: black;
+    border-bottom: 1px solid black;
+    width: fit-content;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+#main-page h1
+{
+  font-size: 34px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+
+}
+
+
+#about 
+{
+  
+  margin-top: 4%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#about p{
+  font-size: 20px;
+  font-family:cursive;
+}
+
+
+
+
+
+#projects
+{
+  margin-left: 10%;
+  padding:10px;
+}
+
+#video
+{
+    text-align: center;
+    padding-top: 30%;
+    padding-bottom: 5%;
+}
+
+.projectBox
+{
+  
+  text-align: center;
+  height: 220px;
+  width: 220px;
+  box-shadow: 0px 2px 17px 0px #534F4F;
+  margin: 28px;
+  margin-left: 40px;
+  padding: 28px;
+  float:left;
+  font-size: 16px;
+
+}
+
+.projectsTitle 
+{
+  text-align: center;
+  margin-top: 4%;
+}
+
+a:link
+{
+  text-decoration: none;
+}
+
+.projectBox:hover
+{
+    border-radius: 10px;
+    background-color: #E1E5CE;
+}
+
+.projectBox button
+{
+  margin: 10px;
+  padding: 10px;
+}
+
+
+
+footer{
+  background-color: #07031a;
+  position: relative;
+  margin: -8px;
+  overflow: hidden;
+
+}
+
+#social ul{
+    
+  text-align: center;
+  text-decoration: none;
+  word-spacing: 27px;
+
+
+}
+
+
+
+.footerText{
+  border-bottom: 1px solid white;
+  width: fit-content;
+  position: relative;
+  left: 25px;
+  color: white;
+  text-shadow: 2px 2px blue;
+}
+#social a
+{
+    
+  color: white;
+  font-size: 32px;
+  text-shadow: 2px 2px blue;
+  
+
+}
+
+#social a:hover{
+  color: #166FF0;
+  transition: .35s;
+}
